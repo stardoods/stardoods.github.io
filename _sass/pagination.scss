@@ -125,11 +125,11 @@
 }
 .pagination-number:hover,
 .pagination-button:not(.disabled):hover {
-  background:#fff;
+  background:var(--light);
 }
 .pagination-number.active {
-  color:#fff;
-  background:#0085b6;
+  color:var(--light);
+  background:var(--acent);
 }
 
 @include mq(tablet){

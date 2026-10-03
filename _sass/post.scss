@@ -296,13 +296,10 @@ main {
     overflow-x:auto;
     white-space:nowrap;
     position:relative;
-    background-color:#fff;
     border-radius:10px;
     border-collapse:collapse;
     line-height:1.5;
-    box-shadow:0 0 40px 0 rgba(0,0,0,.15);
 
-    thead { box-shadow:0 0 40px 0 rgba(0,0,0,.15); }
     th, td {
       border:1px solid lightgrey;
       word-wrap:break-word;
@@ -352,7 +349,6 @@ main {
   &:before{
     content:"";
     width:40px;
-    border:2px solid #fff;
     position:absolute;
     top:2px;
     left:2px;
@@ -362,7 +358,7 @@ main {
     width:28px;
     top:11px;
     left:10px;
-    fill:#fff !important;
+    fill:var(--light) !important;
     position:absolute;
   }
 }

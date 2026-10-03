@@ -3,44 +3,30 @@
 
 body {
   margin:0;
-  background:
-    repeating-linear-gradient(
-    to right, transparent, 
-    transparent 100px, 
-    white 100px, 
-    white 112px
-    ),
-    repeating-linear-gradient(
-    to bottom, transparent, 
-    transparent 100px, 
-    white 100px, 
-    white 112px
-    ),
-    linear-gradient(45deg, pink, skyblue);
 }
 
 .blank-page {
-  display:table-cell;
-  z-index:0;
-  background:#fff;
-  margin:1rem auto;
+  background:var(--light);
   width:100vw;
-  height:45vh;
   vertical-align:middle;
 
-  .go-home {
-    text-decoration:none;
-    margin-left:5vw;
-    font-size:1.25rem;
+  .not-found-msg { 
+    margin-top:26vh;
+    text-align:center; 
+    a
+    {
+      color: var(--light);
+      background-color: var(--dark);
+      border-radius:3rem;
+      padding:0.5rem 1rem 0.5rem 1rem;
+      font-weight: 700;
+      &:hover{background-color: var(--accent);}
+    }
   }
 
-  .not-found-msg { text-align:center; }
-
   .sour-face {
-    margin:3rem auto;
     font-size:5rem;
     line-height:1;
-    letter-spacing:-1px;
   }
 }
 
