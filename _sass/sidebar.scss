@@ -9,7 +9,7 @@
 
 .sidebar-left {
   display:flex;
-  background-color:$color-beige;
+  background-color:var(--color-box);
 }
 
 .side-banner {
@@ -18,7 +18,7 @@
 
   button {
     position:absolute;
-    background-color:$color-beige;
+    background-color:var(--color-box);
     height:100%;
     aspect-ratio:1;
     top:0;
@@ -89,12 +89,12 @@
     cursor:pointer;
 
     &:hover {
-      border:2px solid midnightblue;
+      border:2px solid var(--color-hover);
     }
   }
 
   svg {
-    fill: $color-darkbrown !important;
+    fill: var(--color-svg) !important;
     width:24px;
     position:relative;
     transition:all .3s;
@@ -164,10 +164,11 @@
 
 .site-name {
   position:relative;
+  mark{color:var(--color-text);}
 
   &:hover {
     mark { 
-      color:$color-rose;
+      color:var(--color-hover);
     }
   }
 }

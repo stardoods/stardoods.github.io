@@ -2,14 +2,36 @@
 ---
 $baseurl: "{{ site.baseurl }}";
 
-$color-wenge: #66545E;
-$color-beige: #F1EBE5;
-$color-darkbrown: #3A241A;
-$color-darkorange: #B04008;
-$color-rose: #fa4251;
-$color-aqua: #64c8c8;
-$color-rule: burlywood;
-$color-link: dodgerblue;
+:root,[data-theme=light] {
+  --color-bg: #fff;
+  --color-text: #3A241A;
+  --colour-svg: #3A241A
+  --color-box: #F1EBE5;
+  --color-accent: #B04008;
+  --color-hover: #fa4251;
+  --color-rule: burlywood;
+  --color-link: dodgerblue;
+  --color-link-hover:lightseagreen;
+  --color-aqua: #64c8c8;
+  --color-goldenrod: goldenrod;
+  --color-darkgoldenrod: darkgoldenrod;
+
+}
+
+[data-theme=dark] {
+  --color-bg: #1E1E1F;
+  --color-text: #f1eeec;
+  --colour-svg: #3A241A
+  --color-box: #F1EBE5;
+  --color-accent: #B04008;
+  --color-hover: #fa4251;
+  --color-rule: burlywood;
+  --color-link: dodgerblue;
+  --color-link-hover:lightseagreen;
+  --color-aqua: #64c8c8;
+  --color-goldenrod: goldenrod;
+  --color-darkgoldenrod: darkgoldenrod;
+}
 
 $sidebarwd: 18rem;
 $contentwd: 54rem;
@@ -24,6 +46,7 @@ $mediawd: (
 html, body {
   margin:0;
   padding:0;
+  background: var(--color-bg);
 }
 
 .fonts-loaded {
@@ -33,7 +56,7 @@ html, body {
 }
 
 a { text-decoration:none; }
-a, span, p, h1, h2, h3, i, dd, dt, blockquote { color:$color-darkbrown; }
+a, span, p, h1, h2, h3, i, dd, dt, blockquote { color:var(--color-text); }
 a, span, p { font-family:'Lucida Sans', sans-serif; }
 h1, h2, h3, mark {
   margin:0;
@@ -41,10 +64,14 @@ h1, h2, h3, mark {
 }
 mark { background-color:transparent; }
 
+li::marker{
+  color: var(--color-text);
+}
+
 svg {
   width:16px;
   aspect-ratio:1.0;
-  fill: $color-darkbrown;
+  fill: var(--color-text);
   display:block;
   margin:auto;
 }
@@ -97,5 +124,5 @@ input::-webkit-search-results-decoration{
 @import "toc";
 @import "post";
 @import "search";
-@import "darkmode";
+// @import "darkmode";
 @import "character";

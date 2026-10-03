@@ -171,22 +171,22 @@ main {
   h3, .sh3 { font-size:1.125rem; }
 
   u {
-    color:$color-rose;
+    color:var(--color-hover);
     text-underline-offset:2px;
   }
 
   em { padding-right:2px; }
 
   a {
-    color: $color-link;
+    color: var(--color-link);
     text-decoration:none;
 
     &:hover {
-      color:midnightblue;
+      color:var(--color-link-hover);
       text-decoration:underline;
       text-decoration-style:wavy;
       text-underline-offset:4px;
-      text-decoration-color:midnightblue;
+      text-decoration-color:var(--color-link-hover);
     }
   }
 
@@ -211,7 +211,7 @@ main {
     background-color:#f4f4f4;
     border-radius:3px;
     font-family:'Courier New', Courier, monospace;
-    color:$color-darkorange;
+    color:var(--color-accent);
     position:relative;
     top:-1px;
     vertical-align:middle;
@@ -288,8 +288,8 @@ main {
   }
 
   blockquote {
-    background:$color-beige;
-    border-left:4px solid $color-rule;
+    background:var(--color-box);
+    border-left:4px solid var(--color-rule);
     padding: 0.8rem ;
     margin-inline-start: 0;
     margin-inline-end: 0;
@@ -336,7 +336,7 @@ main {
     border:0;
     height:3px;
     margin:1rem 0;
-    background:$color-rule;
+    background:var(--color-rule);
   }
 
   img + em {
@@ -411,7 +411,7 @@ main {
 
     &:hover {
       background-size:0 4px, 100% 4px;
-      box-shadow:0 4px 64px 16px rgba(100, 200, 200, 1);
+      box-shadow:0 4px 64px 16px var(--color-aqua);
     }
 
     svg { margin-right:8px; }

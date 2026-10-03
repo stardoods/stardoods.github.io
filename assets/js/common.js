@@ -1,9 +1,11 @@
 var baseurl = document.querySelector('meta[name="baseurl"]').content;
+let currentTheme = localStorage.getItem('theme');
+let isDarkMode = false;
+
+document.querySelector('html').dataset.theme = currentTheme;
 
 document.addEventListener('DOMContentLoaded', function(){
     // Init theme
-    let currentTheme = localStorage.getItem('theme');
-    let isDarkMode = false;
 
     if (currentTheme === 'dark'){
         isDarkMode = true;
@@ -99,10 +101,8 @@ document.addEventListener('DOMContentLoaded', function(){
                 ico.classList.toggle('active');
             });
 
-            document.body.classList.toggle('dark-theme');
-
             if (isDarkMode){
-                localStorage.setItem('theme', 'default');
+                localStorage.setItem('theme', 'light');
                 // Disable highlighter dark color theme
                 if (codeblocks) {
                     Array.from(codeblocks).forEach(function (codeblock){
@@ -125,6 +125,8 @@ document.addEventListener('DOMContentLoaded', function(){
                 changeGiscusTheme('noborder_gray');
                 isDarkMode = true;
             }
+
+            document.querySelector('html').dataset.theme = localStorage.getItem('theme');
         });
     });
 

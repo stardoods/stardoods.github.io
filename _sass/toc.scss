@@ -8,7 +8,7 @@
   font-size:1.25rem;
   font-weight:600;
   padding:0 0 4px 12px;
-  border-bottom:$color-rule 3px solid;
+  border-bottom:var(--color-rule) 3px solid;
 
   svg { 
     width:16px;

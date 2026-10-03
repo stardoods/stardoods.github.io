@@ -63,11 +63,6 @@
         {% endif %}
     </head>
     <body>
-        <script type="text/javascript">
-            let currentTheme = localStorage.getItem('theme');
-        
-            document.body.classList[currentTheme === 'dark' ? 'add' : 'remove']('dark-theme');
-        </script>
         {% include sidebar.html %}
         <div id="post">
             <div class="inner-content">
@@ -84,6 +79,7 @@
         </div>
         {% include search.html %}
     </body>
+    <script src="{{ '/assets/js/common.js' | prepend: site.baseurl }}"></script>
     {% include footer.html %}
     {% if page_type == "category" %}
         <script src="{{ '/assets/js/subject.js' | prepend: site.baseurl }}"></script>
@@ -93,6 +89,5 @@
         <noscript><link rel="stylesheet" href="{{ '/assets/css/highlight.min.css' | prepend: site.baseurl }}"></noscript>
         <script defer src="{{ '/assets/js/highlight.min.js' | prepend: site.baseurl }}"></script>
     {% endif %}
-    <script src="{{ '/assets/js/common.js' | prepend: site.baseurl }}"></script>
     {% include search_event.html %}
 </html>

@@ -79,14 +79,14 @@
 
   &:hover {
     transform:scale(1.25);
-    svg { fill:$color-darkorange; }
+    svg { fill:var(--color-accent); }
   }
 }
 
 .nav-lh svg {
   margin-left:-0.25rem;
   position:relative;
-  fill:$color-darkorange;
+  fill:var(--color-accent);
   transform:translateY(-2px);
 }
 .nav-sh svg { 

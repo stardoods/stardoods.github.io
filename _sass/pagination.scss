@@ -82,9 +82,9 @@
   }
   .title_post:hover,
   .category:hover {
-    color:$color-rose;
+    color:var(--color-hover);
   }
-  .category{ color:mediumseagreen !important; }
+  .category{ color:var(--color-hover) !important; }
 
   .txt_post {
     display:-webkit-box;
