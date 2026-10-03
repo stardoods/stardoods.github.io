@@ -20,14 +20,16 @@
 
   button {
     position:absolute;
-    background-color:var(--light);
     height:100%;
     aspect-ratio:1;
+    background-color: var(--dark);
     top:0;
 
-    svg { width:20px; }
+    svg { 
+      width:20px; fill: var(--light); 
+      &:hover {fill:var(--accent);}
+    }
 
-    &:hover { background-color:rgba(212, 201, 191, 0.7); }
   }
   #btn-nav { right:0; }
   #btn-search { right:38px; }
@@ -120,75 +122,80 @@
 
 @include mq(tablet){
 
-.side-banner {
-  button { font-size:1.75rem; }
-  #btn-search { right:60px; }
-  #btn-brightness { right:120px; }
+  .side-banner {
+    button { font-size:1.75rem; }
+    #btn-search { right:60px; }
+    #btn-brightness { right:120px; }
+  }
+
+  .site-tab { 
+    padding:1rem;
+    font-size:1.375rem; 
+  }
+
+  .site-name{
+    mark{color:var(--light);}
+
+    &:hover {
+      mark { 
+        color:var(--accent);
+      }
+    }
+  }
+  
 }
 
-.site-tab { 
-  padding:1rem;
-  font-size:1.375rem; 
-}
-
-}
 
 @include mq(desktop){
 
-.sidebar { position:fixed; }
+  .sidebar { position:fixed; }
 
-.sidebar-left{
-  flex-flow:column nowrap;
-  width:#{$sidebarwd};
-  min-height:100%;
-  background:none;
-  align-items:flex-end;
-}
-
-.side-banner{
-  width:#{$sidebarwd};
-
-  button {
-    display:none;
-    font-size:1.5rem;
+  .sidebar-left{
+    flex-flow:column nowrap;
+    width:#{$sidebarwd};
+    min-height:100%;
+    background:none;
+    align-items:flex-end;
   }
-  #btn-search { right:69px; }
-  #btn-brightness { right:138px; }
-}
 
-.site-avatar img { display:inline-block; }
+  .side-banner{
+    width:#{$sidebarwd};
 
-.site-tab {
-  font-size:1.375rem;
-  padding:1rem;
-  text-align:center;
-  position:relative;
-}
-
-.site-name {
-  position:relative;
-  mark{color:var(--light);}
-
-  &:hover {
-    mark { 
-      color:var(--accent);
+    button {
+      display:none;
+      font-size:1.5rem;
     }
+    #btn-search { right:69px; }
+    #btn-brightness { right:138px; }
   }
+
+  .site-avatar img { display:inline-block; }
+
+  .site-tab {
+    font-size:1.375rem;
+    padding:1rem;
+    text-align:center;
+    position:relative;
+  }
+
+  .site-name {
+    position:relative;
+  }
+
+  .side-info {
+    width:#{$sidebarwd};
+    height:calc(100% - 14rem);
+    display:contents;
+  }
+
+  .sidebar-right{
+    display:flex;
+    height:100%;
+    margin-left:calc(var(--pagewidth-desktop) + #{$sidebarwd}/2);
+  }
+
 }
 
-.side-info {
-  width:#{$sidebarwd};
-  height:calc(100% - 14rem);
-  display:contents;
-}
-
-.sidebar-right{
-  display:flex;
-  height:100%;
-  margin-left:calc(var(--pagewidth-desktop) + #{$sidebarwd}/2);
-}
-
-}
 
 @include mq(wide){
 

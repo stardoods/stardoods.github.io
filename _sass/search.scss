@@ -28,7 +28,7 @@
 
     &::-webkit-scrollbar {
       width:8px;
-      background-color:#ddd;
+      background-color:var(--light);
     }
     &::-webkit-scrollbar-thumb { background-color:var(--dark); }
   }
@@ -52,6 +52,7 @@
     font-size:1.25rem;
     padding:8px;
     border:2px solid var(--dark);
+    color: var(--dark);
     background:none;
   }
 }
@@ -104,7 +105,7 @@
   background:var(--light);
 
   &:hover { 
-    background:var(--dark); 
+    background:var(--accent); 
       
     svg{background-color: var(--light);}
     th,td{color: var(--light);}

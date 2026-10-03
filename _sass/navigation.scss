@@ -48,7 +48,7 @@
 .nav-item {
   position:relative;
   padding:12px;
-  border-bottom:1px solid #aaa;
+  border-bottom:1px solid var(--dark);
   span{color: var(--light);}
 
   &.selected {
@@ -121,9 +121,9 @@
 
   &::-webkit-scrollbar {
     width:4px;
-    background-color:#aaa;
+    background-color:var(--light);
   }
-  &::-webkit-scrollbar-thumb { background-color:rosybrown; }
+  &::-webkit-scrollbar-thumb { background-color:var(--dark); }
 }
 
 .nav-item { border:none; }

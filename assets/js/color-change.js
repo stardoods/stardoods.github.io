@@ -12,21 +12,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // Configuration
-    const slowness = 3;
     const easingFactor = 0.1;
 
     const lightStartHue = 0;
     const lightSaturation = 20;
-    const lightLightness = 95;
-    const pixelsPerLightHueCycle = 10000 * slowness;
+    const lightLightness = 96;
+    const pixelsPerLightHueCycle = 20000;
     
     const darkStartHue = 0;
     const darkSaturation = 100;
-    const darkLightness = 25;
-    const pixelsPerDarkHueCycle = 8500 * slowness;
+    const darkLightness = 26;
+    const pixelsPerDarkHueCycle = 17000;
 
-    const accentSaturation = 80;
-    const accentLightness = 40;
+    const accentSaturation = 95;
+    const accentLightness = 51;
 
 
     // Restore virtual scroll
@@ -74,9 +73,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Apply colours immediately using current hues/theme
     function applyColors() {
-        const lightSat = isDarkMode ? 40 : lightSaturation;
-        const darkSat = isDarkMode ? 20 : darkSaturation;
-        const darkLight = isDarkMode ? 15 : darkLightness;
+        const lightSat = isDarkMode ? 45 : lightSaturation;
+        const darkSat = isDarkMode ? 18 : darkSaturation;
+        const darkLight = isDarkMode ? 7 : darkLightness;
 
         let light = `hsl(${currentLightHue}, ${lightSat}%, ${lightLightness}%)`;
         let dark = `hsl(${currentDarkHue}, ${darkSat}%, ${darkLight}%)`;

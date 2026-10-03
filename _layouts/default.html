@@ -14,10 +14,9 @@
         <script>
             (() => { // apply colours before all else to prevent flickering on page transition
                 const root = document.documentElement;
-
                 const isDarkMode = localStorage.getItem('theme') === 'dark';
-
                 const savedScroll = sessionStorage.getItem('virtualScrollTop');
+
                 let scrollTop = savedScroll !== null
                     ? Number(savedScroll)
                     : 0;
@@ -27,10 +26,10 @@
                 }
 
                 const lightHue =
-                    ((scrollTop / 30000) * 360) % 360;
+                    ((scrollTop / 20000) * 360) % 360;
 
                 const darkHue =
-                    ((scrollTop / 25500) * 360) % 360;
+                    ((scrollTop / 17000) * 360) % 360;
 
                 const normalise = hue => (hue + 360) % 360;
 
