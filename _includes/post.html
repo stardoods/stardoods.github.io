@@ -12,7 +12,7 @@
 {% if page.tags %}
 <div class="tag-box">
     {%- for page_tag in page.tags -%}
-        <span class="tag">
+        <span class="tag" contentID="{{page_tag}}">
             {{ page_tag }}
         </span>
     {%- endfor -%}
