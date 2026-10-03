@@ -2,34 +2,6 @@
 ---
 $baseurl: "{{ site.baseurl }}";
 
-:root,[data-theme=light] {
-  --color-bg: #fff;
-  --color-text: #3A241A;
-  --colour-svg: #3A241A;
-  --color-box: #F1EBE5;
-  --color-accent: #B04008;
-  --color-hover: #fa4251;
-  --color-rule: burlywood;
-  --color-link: dodgerblue;
-  --color-link-hover:lightseagreen;
-  --color-aqua: #64c8c8;
-  --color-goldenrod: gold;
-  --color-darkgoldenrod: goldenrod;
-
-}
-
-[data-theme=dark] {
-  --color-bg: #1E1E1F;
-  --color-text: #f1eeec;
-  --colour-svg: #3A241A;
-  --color-box: #F1EBE5;
-  --color-accent: #B04008;
-  --color-hover: #fa4251;
-  --color-rule: burlywood;
-  --color-link: dodgerblue;
-  --color-link-hover:lightseagreen;
-}
-
 $sidebarwd: 18rem;
 $contentwd: 54rem;
 
@@ -40,10 +12,15 @@ $mediawd: (
   wide: 1441px,
 ) !default;
 
+::selection {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
 html, body {
   margin:0;
   padding:0;
-  background: var(--color-bg);
+  background: var(--light);
 }
 
 .fonts-loaded {
@@ -52,8 +29,8 @@ html, body {
   mark { font-family:'Righteous', sans-serif; }
 }
 
-a { text-decoration:none; }
-a, span, p, h1, h2, h3, i, dd, dt, blockquote { color:var(--color-text); }
+a { text-decoration:none;}
+span, p, h1, h2, h3, i, dd, dt, blockquote { color:var(--dark); }
 a, span, p { font-family:'Lucida Sans', sans-serif; }
 h1, h2, h3, mark {
   margin:0;
@@ -62,13 +39,13 @@ h1, h2, h3, mark {
 mark { background-color:transparent; }
 
 li::marker{
-  color: var(--color-text);
+  color: var(--dark);
 }
 
 svg {
   width:16px;
   aspect-ratio:1.0;
-  fill: var(--color-text);
+  fill: var(--dark);
   display:block;
   margin:auto;
 }
@@ -121,5 +98,4 @@ input::-webkit-search-results-decoration{
 @import "toc";
 @import "post";
 @import "search";
-// @import "darkmode";
 @import "character";

@@ -6,7 +6,7 @@
   left:0;
   position:fixed;
   display:none;
-  background:var(--color-bg);
+  background:var(--light);
   z-index:999;
   text-align:center;
 
@@ -20,7 +20,7 @@
     padding:0;
     overflow-y:auto;
     max-height:60vh;
-    border-bottom:2px solid var(--color-text);
+    border-bottom:2px solid var(--dark);
 
     i {
       margin-right:0.5rem;
@@ -30,7 +30,7 @@
       width:8px;
       background-color:#ddd;
     }
-    &::-webkit-scrollbar-thumb { background-color:var(--color-rule); }
+    &::-webkit-scrollbar-thumb { background-color:var(--dark); }
   }
 
   &.active{ display:flex; }
@@ -51,7 +51,7 @@
   input {
     font-size:1.25rem;
     padding:8px;
-    border:2px solid var(--color-text);
+    border:2px solid var(--dark);
     background:none;
   }
 }
@@ -69,7 +69,7 @@
     left:0;
     z-index:-1;
   }
-  &:before { background:(--color-bg); }
+  &:before { background:(--light); }
   // &:after { background-image:url($baseurl + '/assets/img/tile.png'); }
 
   button {
@@ -83,11 +83,16 @@
     border-radius:50%;
     transform:translateY(50%);
     font-size:14px;
-    background:var(--color-rule) !important;
+    background:var(--dark) !important;
 
     svg { 
-      fill:var(--color-bg) !important;
+      fill:var(--light) !important;
       width:14px;
+    }
+
+    &:hover {
+      background:var(--light) !important;
+      svg {fill:var(--dark) !important};
     }
   }
 }
@@ -96,12 +101,19 @@
   list-style:none;
   text-align:justify;
   padding:8px;
-  background:var(--color-bg);
+  background:var(--light);
 
-  &:hover { background:var(--color-link-hover); }
+  &:hover { 
+    background:var(--dark); 
+      
+    svg{background-color: var(--light);}
+    th,td{color: var(--light);}
+    .highlight{color: var(--light);}
+  }
 
   table {
     th, td { 
+      color: var(--dark);
       text-align:left;
       vertical-align:top;
     }
@@ -109,7 +121,7 @@
     td { font-size:0.875rem; }
 
     svg {
-      background-color:var(--color-rule);  
+      background-color:var(--dark);  
       mask-repeat:no-repeat;
       display:inline-flex;
       width:14px;
@@ -117,7 +129,6 @@
       transform:translateY(2px);
     }
     .ico-book {
-      background-color:var(--color-accent) !important;
       -webkit-mask-image:url($baseurl + '/assets/img/icon/book-solid.svg');
       mask-image:url($baseurl + '/assets/img/icon/book-solid.svg');
     }
@@ -134,12 +145,11 @@
       mask-image:url($baseurl + '/assets/img/icon/calendar-days-regular.svg');
     }
     .ico-book, th .ico-folder { width:18px; }
-    th .ico-folder { background-color:var(--color-hover) !important; }
+
   }
 
   .highlight {
     font-weight:900;
-    color:var(--color-hover) !important;
   }
 }
 

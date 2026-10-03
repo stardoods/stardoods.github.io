@@ -1,4 +1,5 @@
 #navigation {
+  background-color: var(--dark);
   display:none;
   flex:1 1 auto;
   width:100%;
@@ -48,6 +49,7 @@
   position:relative;
   padding:12px;
   border-bottom:1px solid #aaa;
+  span{color: var(--light);}
 
   &.selected {
     span {
@@ -79,14 +81,14 @@
 
   &:hover {
     transform:scale(1.25);
-    svg { fill:var(--color-accent); }
+    svg { fill:var(--dark); }
   }
 }
 
 .nav-lh svg {
   margin-left:-0.25rem;
   position:relative;
-  fill:var(--color-accent);
+  fill:var(--light);
   transform:translateY(-2px);
 }
 .nav-sh svg { 
@@ -110,11 +112,10 @@
 #navigation {
   width:calc(#{$sidebarwd} - 2.5rem);
   display:block;
-  max-height:calc(100vh - 20rem);
+  // max-height:calc(100vh - 20rem);
   padding:0 20px;
   overflow-y:auto;
   overflow-x:hidden;
-  margin-top:2rem;
 
   &.nav-open { border:none; }
 
@@ -139,9 +140,8 @@
       font-weight:600;
       text-decoration:underline;
     }
-
-    // transform:scale(.9);
   }
+
 }
 
 .nav-lh {
@@ -157,7 +157,7 @@
   }
   &:hover:before {
     width:105%;
-    background:var(--color-goldenrod);
+    background:var(--accent);
   }
 
   svg { transform:none; }

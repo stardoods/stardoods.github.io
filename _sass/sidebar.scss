@@ -9,16 +9,18 @@
 
 .sidebar-left {
   display:flex;
-  background-color:var(--color-box);
+  background-color:var(--light);
 }
 
 .side-banner {
   width:100%;
   text-align:center;
+  background-color: var(--dark);
+  padding-bottom: 2rem;
 
   button {
     position:absolute;
-    background-color:var(--color-box);
+    background-color:var(--light);
     height:100%;
     aspect-ratio:1;
     top:0;
@@ -63,6 +65,7 @@
   position:relative;
 
   a, span { letter-spacing:2px; }
+
 }
 
 .side-info {
@@ -80,7 +83,7 @@
     width:2.75rem;
     aspect-ratio:1;
     text-align:center;
-    background:#ffe390;
+    background:var(--dark);
     border:none;
     border-radius:50%;
     margin-left:1rem;
@@ -89,12 +92,12 @@
     cursor:pointer;
 
     &:hover {
-      border:2px solid var(--color-hover);
+      border:3px solid var(--accent);
     }
   }
 
   svg {
-    fill: var(--color-svg) !important;
+    fill: var(--light) !important;
     width:24px;
     position:relative;
     transition:all .3s;
@@ -164,11 +167,11 @@
 
 .site-name {
   position:relative;
-  mark{color:var(--color-text);}
+  mark{color:var(--light);}
 
   &:hover {
     mark { 
-      color:var(--color-hover);
+      color:var(--accent);
     }
   }
 }
