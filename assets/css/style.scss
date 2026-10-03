@@ -5,7 +5,7 @@ $baseurl: "{{ site.baseurl }}";
 :root,[data-theme=light] {
   --color-bg: #fff;
   --color-text: #3A241A;
-  --colour-svg: #3A241A
+  --colour-svg: #3A241A;
   --color-box: #F1EBE5;
   --color-accent: #B04008;
   --color-hover: #fa4251;
@@ -13,24 +13,21 @@ $baseurl: "{{ site.baseurl }}";
   --color-link: dodgerblue;
   --color-link-hover:lightseagreen;
   --color-aqua: #64c8c8;
-  --color-goldenrod: goldenrod;
-  --color-darkgoldenrod: darkgoldenrod;
+  --color-goldenrod: gold;
+  --color-darkgoldenrod: goldenrod;
 
 }
 
 [data-theme=dark] {
   --color-bg: #1E1E1F;
   --color-text: #f1eeec;
-  --colour-svg: #3A241A
+  --colour-svg: #3A241A;
   --color-box: #F1EBE5;
   --color-accent: #B04008;
   --color-hover: #fa4251;
   --color-rule: burlywood;
   --color-link: dodgerblue;
   --color-link-hover:lightseagreen;
-  --color-aqua: #64c8c8;
-  --color-goldenrod: goldenrod;
-  --color-darkgoldenrod: darkgoldenrod;
 }
 
 $sidebarwd: 18rem;

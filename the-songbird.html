@@ -3,10 +3,4 @@ layout: default
 title: The Songbird
 ---
 
-<ul>
-{% for article in site.the-songbird %}
-    <li>
-        <a href="{{ article.url | relative_url }}"> {{ article.title }} </a>
-    </li>
-{% endfor %}
-</ul>
+{% include pagination.html %}

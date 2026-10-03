@@ -2,5 +2,24 @@
 layout: default
 ---
 
-<h1> {{ page.title }} </h1>
+ <head>
+    <meta property="og:image" content="{{ page.thumbnail | prepend: site.baseurl }}">
+  </head>
+
+  <img src="{{ page.thumbnail | prepend: site.baseurl }}">
+
+    <div class="character-info">
+      <h1>{{ page.title }}</h1>
+
+      <dl class="character-detail">
+      {% if page.author %}
+        <dt>Author</dt> <dd>{{ page.author }}</dd>
+      {% endif %}
+
+      {% if page.date %}
+        <dt>Date</dt> <dd>{{ page.date | date: "%d-%m-%Y" }}</dd>
+      {% endif %}
+
+      </dl>
+
 {{ page.content }}

@@ -157,7 +157,7 @@
   }
   &:hover:before {
     width:105%;
-    background:gold;
+    background:var(--color-goldenrod);
   }
 
   svg { transform:none; }

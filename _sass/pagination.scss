@@ -13,11 +13,6 @@
     color:slategrey;
   }
 
-  a {
-    color:dodgerblue;
-    text-decoration:none;
-  }
-
   svg {
     position:absolute;
     display:inline-flex;
@@ -40,6 +35,7 @@
   padding:0;
 }
 .paginated-item {
+  margin:1rem;
   list-style-type:none;
   height:fit-content;
 }
@@ -54,8 +50,6 @@
     width:100%;
     aspect-ratio:5/3;
     border-radius:0;
-
-    &:hover { opacity:0.8; }
   }
 
   .empty { opacity:0.5; }
@@ -75,16 +69,13 @@
     font-size:1rem;
     line-height:2rem;
     word-break:normal;
-    white-space:nowrap;
-    overflow:hidden;
-    text-overflow:ellipsis;
     text-align:left;
   }
   .title_post:hover,
   .category:hover {
     color:var(--color-hover);
   }
-  .category{ color:var(--color-hover) !important; }
+  .category{ color:mediumseagreen !important; }
 
   .txt_post {
     display:-webkit-box;
@@ -163,7 +154,7 @@
 
 .paginated-list { margin:auto 2rem; }
 .paginated-item {
-  margin:3rem 0;
+  margin:4rem 0;
   height:12.5rem;
 }
 
@@ -184,9 +175,8 @@
 
   .box_contents {
     width:100%;
-    margin:auto 0 auto -5rem;
+    margin:auto;
     padding:8px 24px;
-    background-color:rgba(255,255,255,0.95);
     background-image:url($baseurl + "/assets/img/tile.png");
     border-radius:6px;
   }
@@ -224,7 +214,6 @@
   .thumbnail_post { height:15rem; }
 
   .box_contents {
-    margin-left:-6rem;
     border-radius:8px;
   }
 
