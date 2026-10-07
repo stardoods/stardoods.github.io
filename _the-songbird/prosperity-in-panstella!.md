@@ -39,7 +39,7 @@ Miralis strongly supports the villager position and their welfare but has recent
     Historic photograph of Twinkbweeze, a modern image could not be procured due to heavy snow and corporate vandalism present.
 </i></p>
 
-Under its governor, [Dotor Drep], Twinkbweeze has developed its own agriculture and a bustle of buildings, workshops, inns and restaurants - most notably Faraway Tea, renowned for its builder's tea and ethical milking (of cows) ethos. The Church Of Edward's Archangel [Ji] was appointed steward of the frontier's church, a responsibility he accepted gracefully. 
+Under its governor, [Dotor Drep], Twinkbweeze has developed its own agriculture and a bustle of buildings, workshops, inns and restaurants - most notably Faraway Tea, renowned for its builder's tea and ethical milking (of cows) ethos. The Church Of Edward's Guardian Angel [Ji] was appointed steward of the frontier's church, a responsibility he accepted gracefully. 
 
 Twinkbweeze's name has had a history of pinballing. Originally named Twinchurch after its church's unique architecture, Twinchurch was temporarily under the name of Amberbreeze during deliberation of claims over the frontier. Once Dotor Drep assumed governorship, he merged the two historic names to form Twinkbreeze but its corruption to Twinkbweeze was spawned from Tax Office Incumbent [Elene Sauvageau]'s mispronounciation when announcing the new name during a consortium debrief and the name stuck.  
 
