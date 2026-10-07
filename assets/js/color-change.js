@@ -12,20 +12,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // Configuration
-    const easingFactor = 0.1;
 
+    // Universal
+    const easingFactor = 0.1;
     const lightStartHue = 0;
-    const lightSaturation = 20;
-    const lightLightness = 96;
-    const pixelsPerLightHueCycle = 20000;
-    
     const darkStartHue = 0;
-    const darkSaturation = 100;
-    const darkLightness = 26;
+    const pixelsPerLightHueCycle = 20000;
     const pixelsPerDarkHueCycle = 17000;
 
-    const accentSaturation = 95;
-    const accentLightness = 51;
+    // Light Theme
+    const lightSaturation = 20;
+    const lightLightness = 95;
+    const darkSaturation = 100;
+    const darkLightness = 26;
+    const accentLightness = 42;
+    const accentSaturation = 97;
+
+    // Dark Theme Adjustments
+    const lightSaturationDark = 45;
+    const darkSaturationDark = 18;
+    const darkLightnessDark = 7; 
+    const accentLightnessDark = 64;
 
 
     // Restore virtual scroll
@@ -73,13 +80,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Apply colours immediately using current hues/theme
     function applyColors() {
-        const lightSat = isDarkMode ? 45 : lightSaturation;
-        const darkSat = isDarkMode ? 18 : darkSaturation;
-        const darkLight = isDarkMode ? 7 : darkLightness;
+        const lightSat = isDarkMode ? lightSaturationDark : lightSaturation;
+        
+        const darkSat = isDarkMode ? darkSaturationDark : darkSaturation;
+        const darkLight = isDarkMode ? darkLightnessDark : darkLightness;
+
+        const accentLight = isDarkMode ? accentLightnessDark : accentLightness;
 
         let light = `hsl(${currentLightHue}, ${lightSat}%, ${lightLightness}%)`;
         let dark = `hsl(${currentDarkHue}, ${darkSat}%, ${darkLight}%)`;
-        const accent = `hsl(${currentLightHue}, ${accentSaturation}%, ${accentLightness}%)`;
+        const accent = `hsl(${currentLightHue}, ${accentSaturation}%, ${accentLight}%)`;
 
         if (isDarkMode) [light, dark] = [dark, light];
 
@@ -118,8 +128,8 @@ document.addEventListener('DOMContentLoaded', () => {
         applyColors();
 
         return (
-            hueDistance(currentLightHue - targetLightHue) > 0.01 ||
-            hueDistance(currentDarkHue - targetDarkHue) > 0.01
+            hueDistance(currentLightHue, targetLightHue) > 0.01 ||
+            hueDistance(currentDarkHue, targetDarkHue) > 0.01
         );
     }
 

@@ -169,6 +169,7 @@ main {
   a {
       color: var(--accent);
       text-decoration:none;
+      font-weight: 1000;
     &:hover {
       color:var(--accent);
       text-decoration:underline;
