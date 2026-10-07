@@ -1,4 +1,4 @@
-{% assign pages = site.pages | concat: site.characters %}
+{% assign pages = site.pages | concat: site.characters | concat: site.the-songbird %}
 {%- assign page_list = pages 
     | where_exp: "item", "item.title != nil"
 -%}

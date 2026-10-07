@@ -136,6 +136,8 @@
   }
 
   &:hover {
+    background: var(--accent);
+    &::before {border-color: transparent var(--accent) transparent transparent;}
     transform:scale(1.05);
   }
 }

@@ -21,10 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const pixelsPerDarkHueCycle = 17000;
 
     // Light Theme
-    const lightSaturation = 20;
-    const lightLightness = 95;
+    const lightSaturation = 24;
+    const lightLightness = 90;
     const darkSaturation = 100;
-    const darkLightness = 26;
+    const darkLightness = 27;
     const accentLightness = 42;
     const accentSaturation = 97;
 

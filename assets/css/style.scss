@@ -24,13 +24,13 @@ html, body {
 }
 
 .fonts-loaded {
-  a, span, p, dd, dt, blockquote, legend { font-family:"Nunito Sans", 'Lucida Sans', sans-serif; }
+  a, span, p, dd, dt, blockquote, legend, li { font-family:"Nunito Sans", 'Lucida Sans', sans-serif; }
   h1, h2, h3 { font-family:"Lato", Helvetica, sans-serif; }
   mark { font-family:'Righteous', sans-serif; }
 }
 
 a { text-decoration:none;}
-span, p, h1, h2, h3, i, dd, dt, blockquote { color:var(--dark); }
+span, p, h1, h2, h3, i, dd, dt, blockquote, li { color:var(--dark); }
 a, span, p { font-family:'Lucida Sans', sans-serif; }
 h1, h2, h3, mark {
   margin:0;
