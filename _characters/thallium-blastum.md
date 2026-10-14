@@ -39,3 +39,6 @@ Thallium's fate as of this moment is unknown, with many presuming him to have pa
 
 
 ∷⚍ᒲ𝙹⚍∷ᓭ ᓭ!¡ᒷᔑꖌ 𝙹⎓ ᔑ ∷ᒷᓭ╎ᓭℸ ̣ ᔑリᓵᒷ ⎓𝙹∷ᒲ╎リ⊣ ╎リ ℸ ̣ ⍑ᒷ 𝙹ꖎ↸ ꖎᔑリ↸ᓭ 𝙹⎓ ℸ ̣ ⍑ᒷ  ᓵ𝙹リᓭ𝙹∷ℸ ̣ ╎⚍ᒲ, ꖎᒷᔑ↸ ʖ ᔑ ᒲᔑリ ∴⍑𝙹ᓭ ᓵ⍑ᔑ╎リ 𝙹⎓ ⎓ᔑℸ ̣ ᒷ ⍑ᔑᓭ ʖᒷᒷリ ᓭ⍑ᔑℸ ̣ ℸ ̣ ᒷ∷ᒷ↸ ʖ ℸ ̣ ⍑ᒷ ʖ∷𝙹ꖌᒷリ∴╎リ⊣ᒷ↸ ᔑリ⊣ᒷꖎ
+
+[Miralis]: {{site.baseurl}}/characters/miralis
+[Berta]: {{site.baseurl}}/characters/berta
