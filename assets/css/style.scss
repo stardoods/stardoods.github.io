@@ -39,6 +39,7 @@ h1, h2, h3, mark {
 mark { background-color:transparent; }
 
 li::marker{
+  font-weight: 1000;
   color: var(--dark);
 }
 
