@@ -1,3 +1,6 @@
+---
+published: false
+---
 The 8th Sitting Of The Stardoods Consortium sat on XXX. In this Sitting, 7 proposals were made and 6 were passed with 1 pending redebate and revision, an unprecedented state for the Consortium.
 
 These are as follows:

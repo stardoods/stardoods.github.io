@@ -1,4 +1,5 @@
 ---
+published: false
 author: Spinach Andricotta
 ---
 The Stardoods Consortium is a unitary body that claims sovereignty over all creation, a right bestowed by almighty Edward. Founded to keep peace, prosperity and order in a lawless land, it intially began as a confederation of factions - the initial members being Wulpin Rail Company, Twilight Valley, Berta Construction, The Church Of Edward and Greengrotto Grove. Eventually, factions were assimilated into the Consortium and it became the sole, supreme authority of the land. 
