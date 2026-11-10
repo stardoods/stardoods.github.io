@@ -3,7 +3,8 @@
 $baseurl: "{{ site.baseurl }}";
 
 $sidebarwd: 18rem;
-$contentwd: 54rem;
+$contentvariablewd: 60rem;
+$contentwd: clamp(5%,$contentvariablewd,62%); // min, val, max;
 
 $mediawd: (
   mobile: 0px,
@@ -16,6 +17,8 @@ $mediawd: (
   background-color: var(--dark);
   color: var(--light);
 }
+
+img { border-radius: 12px;}
 
 html, body {
   margin:0;
@@ -75,7 +78,7 @@ input::-webkit-search-results-decoration{
   img {
     aspect-ratio: 1;
     object-fit: cover;
-    border-radius: 18px;
+    border-radius: 12px;
   }
 
   @include mq(mobile){

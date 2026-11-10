@@ -1,13 +1,13 @@
 {%- assign list_pages = site.the-songbird | sort:"date" | reverse -%}
 {%- assign post_counts = 0 -%}
 
-<h1 class="category-header">
+<!-- <h1 class="category-header">
     {% if page_level == 1 %}
         All Posts
     {% else %}
         {{ category_title }}
     {% endif %}
-</h1>
+</h1> -->
 <div id="category-list">
     <ul class="paginated-list" data-current-page="1" aria-live="polite">
     {%- for sub_page in list_pages -%}
