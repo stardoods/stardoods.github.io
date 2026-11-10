@@ -3,8 +3,7 @@
 $baseurl: "{{ site.baseurl }}";
 
 $sidebarwd: 18rem;
-$contentvariablewd: 60rem;
-$contentwd: clamp(5%,$contentvariablewd,62%); // min, val, max;
+$contentwd: 60rem;
 
 $mediawd: (
   mobile: 0px,
