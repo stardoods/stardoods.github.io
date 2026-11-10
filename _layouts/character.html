@@ -2,12 +2,12 @@
 layout: default
 ---
   <head>
-    <meta property="og:image" content="{{site.baseurl}}/assets/img/characters/{{page.slug}}/thumb.png">
+    <meta property="og:image" content="{{site.baseurl}}/assets/img/characters/thumb/{{ page.slug }}.png">
   </head>
 
   <header class="character-box">
     <div class="character-portrait">
-      <img src="{{site.baseurl}}/assets/img/characters/{{ page.slug }}/portrait.png" alt="{{ page.title }}">
+      <img src="{{site.baseurl}}/assets/img/characters/portrait/{{ page.slug }}.png" alt="{{ page.title }}">
     </div>
 
     <div class="character-info">
@@ -87,7 +87,7 @@ layout: default
                 {% if relationship %}
                 <!-- self view -->
                 <div class="relationship-content">
-                    <img src="{{site.baseurl}}/assets/img/characters/{{page.slug}}/thumb.png" alt="{{ page.title }}">
+                    <img src="{{site.baseurl}}/assets/img/characters/thumb/{{ page.slug }}.png" alt="{{ page.title }}">
                     <div class="relationship-text left">
                         {% if relationship.description %}
                           <blockquote> "{{ relationship.description }}" </blockquote> 
@@ -112,7 +112,7 @@ layout: default
                           <p> {{ target.relationships[page.slug].type }} </p> 
                         {% endif %}
                   </div>
-                  <a href="{{site.baseurl}}/characters/{{target.slug}}"><img src="{{site.baseurl}}/assets/img/characters/{{target.slug}}/thumb.png" alt="{{ target.title }}"></a>
+                  <a href="{{site.baseurl}}/characters/{{target.slug}}"><img src="{{site.baseurl}}/assets/img/characters/thumb/{{ target.slug }}.png" alt="{{ target.title }}"></a>
                   </div>
                 {% endif %}
 
