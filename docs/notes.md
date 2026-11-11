@@ -15,5 +15,4 @@ DEVICE_TYPE is mobile, tablet, desktop, wide
 queries should be used when stuff looks weird when resized
 this uses min_size so smaller resolutions should be defined before larger ones (large resolutions can fulfil multiple min_size conditions so it relies on inheritance order)
 ofc these should also come after the css theyre affecting or the main style will always take priority
-if it were up to me id use max_size but i cba to redo this system inherited from the inital theme *ramble ramble*
 

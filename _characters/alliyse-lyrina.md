@@ -45,7 +45,7 @@ relationships:
 ## About
 > "Who said 'execution'?"
 
-A soul-sucking ghost who's inhabiting [Allyn's][Allyn] body because of a contract the two made when Allyn was younger through a mirror. She cannot inhabit anyone else's body until the contract is finalised. Upon meeting Alliyse, you will probably get jumpscared by her bright red eyes reminiscent of a deer in headlights, plus a giant scythe that she shouldn't be able to wield. Her favourite pastime is to collect souls to consume which is also why Allyn has deemed her the "The Pale Executioner of the Starlands".<br>
+A soul-sucking ghost who's inhabiting [Allyn's][Allyn] body because of a contract the two made when Allyn was younger through a mirror. She cannot inhabit anyone else's body until the contract is finalised. Upon meeting Alliyse, you will probably get jumpscared by her bright red eyes reminiscent of a deer in headlights, plus a giant scythe that she shouldn't be able to wield. Her favourite pastime is to collect souls to consume which is also why Allyn has deemed her the "The Pale Executioner of the Starlands".
 
 When off-work, she is typically a quite cheery person and a bit dumb in the head, but she's got the spirit! Don't stare at her too long though because she'll probably swing that scythe right at your head.
 

@@ -45,6 +45,7 @@ relationships:
 ## About
 > "I have never done anything bad in my life. Ever."
 
-Long a presence in the Starlands and the Consortium, Sebastian seeks to build railways to connect the world and does so for the great love of it.<br> 
+Long a presence in the Starlands and the Consortium, Sebastian seeks to build railways to connect the world and does so for the great love of it.
+ 
 Trains are all he has known and trains is all he commit to. Build, build, build. Rob you of your money so he can build. Beneath that prim dress and polite manner there is no concern for anything but trains. Or so one might think. Sebastian loves flowers! Did you know that? He should like to build gardens and sniff bouquets. Alas, his olfactory senses are redundant and his hands are bitingly cold. Indeed, he gives no warmth whatsoever. A plume of frost with every exhale. He is getting better at "caring" to some degree but it will take some time yet to thaw the permafrost at his core. He has been known to accidentally and intentionally murder people but running people over with trains is 100% never his fault. Some speak of a blaze powder habit but pay it no mind, its all just rumour, yes?
 

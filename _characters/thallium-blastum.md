@@ -24,13 +24,13 @@ relationships:
 ---
 ## About
 
-Thallium Blastum is a dwarf blacksmith who moved to Edwardium. Shortly after arriving, he was inducted into the Consortium for his knowledge of smithery and toolcraft. Being a friendly man, Thallium would gladly accept payment for specific tool orders or repair parts for them. <br>
+Thallium Blastum is a dwarf blacksmith who moved to Edwardium. Shortly after arriving, he was inducted into the Consortium for his knowledge of smithery and toolcraft. Being a friendly man, Thallium would gladly accept payment for specific tool orders or repair parts for them. 
 
-He was able to create the skyship "Floaty" (named by [Miralis]) based on the work done by [Berta Co.], an unheard of feat for a dwarf. It's quite ironic given that Thallium isn't that good of an engineer. This ship and Thallium were instrumental in two ways. One of which is the founding of the Smelter's Yard and the other being the raid on the pillager mansion lying west of the Consortium. This skyship would later be reverse engineered by Miralis to revive the technology behind it which was lost by [Berta]. <br>
+He was able to create the skyship "Floaty" (named by [Miralis]) based on the work done by [Berta Co.], an unheard of feat for a dwarf. It's quite ironic given that Thallium isn't that good of an engineer. This ship and Thallium were instrumental in two ways. One of which is the founding of the Smelter's Yard and the other being the raid on the pillager mansion lying west of the Consortium. This skyship would later be reverse engineered by Miralis to revive the technology behind it which was lost by [Berta].
 
-Thallium left his home of Cornflower Town to set out on a pilgrimage to the south. He left his properties in Miralis' care. Thallium's reason for this visit was to return to the grave of his deceased husband, Varnish Sitron Blastum. The pilgrimage lasted several months until he returned. <br>
+Thallium left his home of Cornflower Town to set out on a pilgrimage to the south. He left his properties in Miralis' care. Thallium's reason for this visit was to return to the grave of his deceased husband, Varnish Sitron Blastum. The pilgrimage lasted several months until he returned. 
 
-Upon his return, he was able to create a new pair of wings for Miralis with the help of [Sebastian Grünhaut]. The Starcore Smeltery was also improved with its design finalised. <br>
+Upon his return, he was able to create a new pair of wings for Miralis with the help of [Sebastian Grünhaut]. The Starcore Smeltery was also improved with its design finalised. 
 
 [The uprising of the Pillager and Villager Alliance] occurred where Thallium bravely held multiple raiding parties from the Consortium. He had done this long enough to ensure that the airship (Floaty 2.0) was able to evacuate key members of the Consortium. Though he was unable to join them.
 

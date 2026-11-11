@@ -10,4 +10,3 @@
 # NOTES
 On Formatting The Main Text:
 - Has the same formatting features as Discord, except for spoilers
-- type `br` wrapped in `<>` for new lines 
