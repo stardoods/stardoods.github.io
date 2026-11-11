@@ -1,6 +1,7 @@
 ---
 author: Bastion Dermaverde
-date: 0087-03-05
+date: 2026-05-01
+game-date: 5th Autumn 87
 ---
 Following a joint offensive from pillager and villager factions, the Stardoods Consortium was forced to retreat from Stardoods Central. The radicals were united by a shared animosity, the pillagers citing the burning of their woodland mansions and the villagers referencing their poor labour conditions and events such as the Lakia Massacre. The radicals claim this marks an "era of freedom and newfound co-operation" for two peoples previously at odds. Key Consortium member [Sebastian Grünhaut] comments 
 

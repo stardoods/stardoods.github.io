@@ -2,7 +2,8 @@
 title: Wulpin Rail Company's SYLPH-SAMA Capsized, Houses Damaged!
 author: Saga
 editor: Spinach Andricotta
-date: 0111-01-16
+date: 2026-11-10
+game-date: 1st Spring 111
 thumbnail: /assets/img/the-songbird/sylph-sama-capsized-1.png
 ---
 During the inspection of WRC SYLPH-SAMA by SSAWA representative [Dotor Depping] and Tax Officer [Ace Nightwing] in Year 105, Villagers of Starryville were rudely awakened by sounds of wooden creaking and whirring propellers. Upon brief investigation, they found the recently constructed airship capsized; draped over the roofs of their homes.

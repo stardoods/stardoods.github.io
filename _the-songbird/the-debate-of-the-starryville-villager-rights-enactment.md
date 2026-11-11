@@ -1,6 +1,7 @@
 ---
 author: Spinach Andricotta
-date: 0107-03-11
+date: 2026-10-14
+game-date: 11th Autumn 107
 thumbnail: /assets/img/the-songbird/starryville-at-day-y104.png
 ---
 

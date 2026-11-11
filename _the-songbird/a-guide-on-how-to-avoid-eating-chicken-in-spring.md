@@ -1,6 +1,7 @@
 ---
 author: Bastion Dermaverde
-date: 0105-02-12
+date: 2026-10-08
+game-date: 12th Summer 105
 thumbnail: /assets/img/the-songbird/chateau-de-lix.png
 ---
 Since the 7th Sitting of the Stardoods Consortium in Y96, chicken has been made illegal to consume in spring and slaughter outside of designated areas. Many have found themselves in deep trouble after intentionally or mistakenly eating chicken during the sacred period. Even the Church of Edward's own Guardian Angel, [Ji], had to pay deep penance for contravention of this divine law. Indeed, it seems many have yet adjusted to this righteous way of life, insofar that there are rumours of illicit chicken consumption clubs hiding in the dark, so here are some tips to help to celebrate the upcoming decennial anniversary of the Chicken Protection Act!

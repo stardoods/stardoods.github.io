@@ -1,6 +1,7 @@
 ---
 author: Saga
-date: 0099-02-13
+date: 2026-08-24
+game-date: 13th Summer 99
 thumbnail: /assets/img/the-songbird/sadge.jpg
 tags:
     - Dotor Drep

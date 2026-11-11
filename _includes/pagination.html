@@ -38,7 +38,7 @@
                                 <a href="{{ '/' | append: sub_page_tree[1] | prepend: site.baseurl }}" class="category">{{ sub_page_tree[1] }}</a>
                             {% endif %}
                             {%- assign posting_date = sub_page.date | date: "%d-%m-%Y" -%}
-                                <span class="date">· {{ sub_page.date | date: "%d-%m-%Y" }}</span>
+                                <span class="date">{{ sub_page.game-date }}</span>
                         </div>
                     </div>
                 </div>

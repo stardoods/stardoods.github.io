@@ -1,6 +1,7 @@
 ---
 author: Bastion Dermaverde
-date: 0104-01-01
+date: 2026-10-07
+game-date: 1st Spring 104
 thumbnail: /assets/img/the-songbird/panstella-y104.png
 tags:
     - Sebastian Grünhaut
