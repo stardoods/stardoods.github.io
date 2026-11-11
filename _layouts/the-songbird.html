@@ -13,7 +13,11 @@ layout: default
 
       <dl class="character-detail">
       {% if page.author %}
-        <dt>Author</dt> <dd>{{ page.author }}</dd>
+        <dt>Authored By</dt> <dd>{{ page.author }}</dd>
+      {% endif %}
+
+      {% if page.editor %}
+        <dt>Edited By</dt> <dd>{{ page.editor }}</dd>
       {% endif %}
 
       {% if page.date %}
