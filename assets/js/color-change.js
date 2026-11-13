@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const currentY = event.touches[0].clientY;
 
-        virtualScrollTop += (touchStartY - currentY) * 5;
+        virtualScrollTop += (touchStartY - currentY) * 8;
         touchStartY = currentY;
 
         scheduleSave();
