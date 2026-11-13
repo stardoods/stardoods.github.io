@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const easingFactor = 0.1;
     const lightStartHue = 0;
     const darkStartHue = 0;
-    const pixelsPerLightHueCycle = 20000;
-    const pixelsPerDarkHueCycle = 17000;
+    const pixelsPerLightHueCycle = 18000;
+    const pixelsPerDarkHueCycle = 14000;
 
     // Light Theme
     const lightSaturation = 24;
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const currentY = event.touches[0].clientY;
 
-        virtualScrollTop += touchStartY - currentY;
+        virtualScrollTop += (touchStartY - currentY) * 5;
         touchStartY = currentY;
 
         scheduleSave();
