@@ -14,7 +14,7 @@ Construction of these apartments has been slow as harsh winter arrived soon afte
 
 > "I'm not exactly doing my job as a SSAWA representative and a governor if I let him get crushed by machinery. Though, I wouldn't save him next time if he ever chooses to do so again."
 
-Conflict between Depping and That Bastard continue to escalate, with allegations of theft being flung around. Villagers are calling this a "sign of dissatisfaction with governance in the region." But the governor of nearby Chasmtown, [Sebastian Grünhaut], has chimed in, regarding it as "Just a storm that shall pass soon enough."
+Conflict between Depping and That Bastard continue to escalate, with allegations of theft being flung around. Twinkbweeze's villagers are calling this a "Sign of deep dissatisfaction." with their governance. However the governor of nearby Chasmtown, [Sebastian Grünhaut], has chimed in; he regards it as "Just a storm that shall pass soon enough."
 
 [Dotor Depping]: {{site.baseurl}}/characters/dotor-drep
 [Sebastian Grünhaut]: {{site.baseurl}}/characters/sebastian-grunhaut
