@@ -15,7 +15,7 @@ The inspection was conducted to check the vessel for potential safety risks foll
     Sebastian Grünhaut operating on WRC SYLPH-SAMA with a plunger launcher.
 </i></p>
 
-Sebastian attempted to rectify the ship using a WRC manufactured plunger launcher. Dotor Depping reported the ensuing events:
+Sebastian attempted to rectify the ship using a WRC manufactured plunger launcher. Depping reported the ensuing events:
 
 > "The ship *only* scraped and crashed into a villager's house. Thankfully the roof *only* had a *tiny chunk* **torn** off." 
 
