@@ -13,7 +13,7 @@ tags:
 skills:
   Evangelism: 5
   Singing: 5
-  Public: 4
+  Public Speaking: 4
   Writing: 4
   Naivety: 3
   Handwriting: 2
